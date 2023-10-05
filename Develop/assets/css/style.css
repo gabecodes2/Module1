@@ -1,12 +1,19 @@
+
+/*  Basic Box Style  */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*  Body Section  */ 
+
 body {
     background-color: #d9dcd6;
 }
+
+/*  Header Section  */
 
 .header {
     padding: 20px;
@@ -50,6 +57,9 @@ p {
     font-size: 16px;
 }
 
+
+/*  Hero Section  */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +68,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/*  Float Section  */
 
 .float-left {
     float: left;
@@ -69,11 +81,15 @@ p {
     margin-left: 25px;
 }
 
+ /*  Content Section  */
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/*  Benefits Section  */
 
 .benefits {
     margin-right: 20px;
@@ -134,6 +150,9 @@ p {
     max-width: 150px;
 }
 
+
+/*  Button Styles  */
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,6 +180,9 @@ p {
     color: #ffffff;
 }
 
+
+/*  Image Section  */
+
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,6 +194,9 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+
+
+/*  H2 Heading Styles  */
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -187,6 +212,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+
+/*  Footer Section  */ 
 
 .footer {
     padding: 30px;
